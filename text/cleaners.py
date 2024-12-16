@@ -58,8 +58,6 @@ def expand_numbers(text):
 
 def msci_vits_pt(text: str):
 
-    EspeakWrapper.set_library('C:\Program Files\eSpeak NG\libespeak-ng.dll')
-
     text = text.lower()
 
     text = expand_abbreviations(text)
